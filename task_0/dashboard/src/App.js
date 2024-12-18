@@ -1,6 +1,8 @@
 import logo from './logo.jpg';
 import './App.css';
 
+const date = new Date();
+let year = date.getFullYear();
 function App() {
   return (
     <div className="App">
@@ -14,7 +16,7 @@ function App() {
       </div>
 	<hr />
 	<div className="App-footer">
-		<p>&copy; 2020 - holberton School</p>
+		<p>Copyright {year} - holberton School</p>
 	</div>
     </div>
   );
