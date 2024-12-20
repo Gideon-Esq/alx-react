@@ -1,0 +1,27 @@
+.App {
+}
+
+.App-logo {
+  height: 20vmin;
+  pointer-events: none;
+}
+
+.App-header {
+color: #E0354B;
+}
+h1{
+display: inline;
+top: 20%;
+}
+.App-body {
+margin-top: 30px;
+margin-bottom: 50px;
+padding-bottom: 140px;
+}
+
+hr {
+border: 1px solid #E0354B;
+}
+.App-footer {
+text-align: center;
+}
