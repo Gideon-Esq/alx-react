@@ -13,6 +13,10 @@ function getFooterCopy(isIndex) {
 }
 
 function getLatestNotification() {
-  return "Urgent requirement</strong> - complete by EOD)";
+  return (
+    <span>
+      <strong>Urgent requirement</strong> - complete by EOD
+    </span>
+  );
 }
 export default { getFullYear, getFooterCopy, getLatestNotification };
