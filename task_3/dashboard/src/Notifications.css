@@ -1,0 +1,10 @@
+div #root-notifications {
+  border: 2px dotted #e0354b;
+  padding: 5px;
+}
+.default {
+  color: blue;
+}
+.urgent {
+  color: red;
+}
