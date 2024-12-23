@@ -8,6 +8,8 @@
 
 .App-header {
 color: #E0354B;
+display: flex;
+align-item: center;
 }
 h1{
 display: inline;
