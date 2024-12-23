@@ -12,4 +12,7 @@ function getFooterCopy(isIndex) {
   }
 }
 
-export default { getFullYear, getFooterCopy };
+function getLatestNotification() {
+  return "Urgent requirement</strong> - complete by EOD)";
+}
+export default { getFullYear, getFooterCopy, getLatestNotification };
