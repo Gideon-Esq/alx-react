@@ -34,6 +34,9 @@ function Notifications() {
           <li>{utils.getLatestNotification()}</li>
         </ul>
       </p>
+      <ul>
+        <li>{utils.getLatestNotification()}</li>
+      </ul>
     </div>
   );
 }
