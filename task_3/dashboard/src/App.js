@@ -4,7 +4,7 @@ import "./App.css";
 import utils from "./utils.js";
 
 const year = utils.getFullYear(Date.now());
-const footer = utils.getFooterCopy(true);
+const footer = utils.getFooterCopy(false);
 
 function App() {
   return (
