@@ -18,6 +18,5 @@ function getLatestNotification() {
       <strong>Urgent requirement</strong> - complete by EOD
     </span>
   );
-
 }
 export default { getFullYear, getFooterCopy, getLatestNotification };
